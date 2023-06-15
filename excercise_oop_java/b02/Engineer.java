@@ -1,4 +1,4 @@
-package excercise_oop_java.b1;
+package excercise_oop_java.b02;
 
 public class Engineer {
     
