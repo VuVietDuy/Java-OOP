@@ -1,6 +1,10 @@
 package excercise_oop_java.b01;
 
 public class Main {
+    /*
+     * Access modifier
+     * Tinh dong goi
+     */
     public static void main(String[] args) {
 
         Circle cir = new Circle();
