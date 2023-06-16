@@ -33,5 +33,7 @@ public class j005 {
         String s2 = sc.next();
         System.out.println(s1.concat(s2));
 
+        sc.close();
+
     }
 }

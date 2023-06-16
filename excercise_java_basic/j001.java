@@ -14,5 +14,7 @@ public class j001 {
         System.out.println(a*b);
         System.out.println(a%b);
         System.out.println(a/b);
+
+        sc.close();
     }
 }

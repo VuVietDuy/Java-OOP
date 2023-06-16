@@ -46,5 +46,7 @@ public class Main {
         student.setAddress(address);
 
         System.out.println(student.toString());
+
+        sc.close();
     }
 }

@@ -1,0 +1,33 @@
+----------------------------------------------------
+Inheritance (Tính thừa kế)
+
+Thừa kế trong java là một cơ chế cho phép các class con có thể tái sử dụng các thuộc tính và phương thức của class cha
+Thừa kế đại diên cho mối quan hệ IS-A
+ 
+Single Inheritance (Đơn kế thừa)
+MultiLevel Inheritance (Thừa kế đa cấp)
+Hierarchical Inheritance (Kế thừa phân cấp)
+ 
+Cú pháp
+class Subclass extends Superclass {
+    //code
+}
+
+---------------------------------------------------
+Constructor
+
+Constructor là một method đặc biệt được sử dụng để khởi tạo đội tượng trong Java
+Constructor có cùng tên với class nhưng sẽ có nhiều override method khác nhau
+
+this keyword
+
+Từ khoá this được dùng để tham chiếu đến intance hiện tại của class
+
+
+--------------------------------------------------
+Polymorphism(Đa hình)
+
+1. Khái niệm
+ - Đa hình là một khái niệm quan trọng trong lập trình hướng đối tượng.
+ cho phép ta thực hiện một hành động theo nhiều cách khác nhau
+

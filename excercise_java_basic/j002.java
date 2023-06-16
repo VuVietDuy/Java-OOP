@@ -18,6 +18,8 @@ public class j002 {
 
         double denta = b*b-4*a*c;
 
+        sc.close();
+        
         if(denta<0) {
             System.out.println("Phuong trinh vo nghiem");
         } else if(denta==0) {
@@ -31,5 +33,6 @@ public class j002 {
             System.out.println("x2 = " + x2);
 
         }
+
     }
 }
