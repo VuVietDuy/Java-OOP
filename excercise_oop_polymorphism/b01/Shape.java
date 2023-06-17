@@ -1,10 +1,10 @@
 package excercise_oop_polymorphism.b01;
 
-public class Shape {
+public abstract class Shape {
     protected String color;
     protected boolean filled;
 
-    public Shape() {};
+    public Shape() {}
 
     public Shape(String color, boolean filled) {
         this.color = color;
@@ -27,4 +27,7 @@ public class Shape {
         this.filled = filled;
     }
 
+    public abstract double getArea();
+    public  abstract double getPerimete();
+    public abstract String toString();
 }

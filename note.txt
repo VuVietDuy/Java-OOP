@@ -31,3 +31,10 @@ Polymorphism(Đa hình)
  - Đa hình là một khái niệm quan trọng trong lập trình hướng đối tượng.
  cho phép ta thực hiện một hành động theo nhiều cách khác nhau
 
+------------------------------------------------------
+Lớp trừu tượng
+1. Là lớp được khi báo với keyword abstract
+2. Thường chứa một hoặc nhiều phương thức abstract
+3. Phương thức abstract là phương thức chỉ khai báo, không định nghĩa
+Việc định nghĩa sẽ do lớp con thực hiện
+4. 
