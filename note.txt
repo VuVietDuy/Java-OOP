@@ -38,3 +38,28 @@ Lớp trừu tượng
 3. Phương thức abstract là phương thức chỉ khai báo, không định nghĩa
 Việc định nghĩa sẽ do lớp con thực hiện
 4. 
+
+----------------------------------------------------------
+Interface
+
+Cú pháp khi báo
+interface MyInterface
+{
+   /* Tất các các method đều mặc định thêm public abstract method.
+    * Các method không có thân hàm
+    */
+   public void method1();
+   public void method2();
+}
+
+Đa kế thừa trong Interface
+Trong java các class thông thường chỉ được phép extends từ một class cha duy nhất
+có thể là một class khác hoặc một abstract class. Thế nhưng trong interface ta 
+có thể extends nhiều interface khác
+
+Note:
+ - Một interface không thể khởi tạo. Nghĩa là bạn không thể khởi tạo một object của interface.
+ - Interface cung cấp 100% tính trừu tượng với các method mặc định là abstract method.
+ - Class sử dụng từ khoá implement để implement một interface.
+ - Các class implement một interface bắt buộc phải triển khai tất cả các method được khai báo trong interface. 
+ - Interface không để khai báo với từ khoá private hoặc protected 
